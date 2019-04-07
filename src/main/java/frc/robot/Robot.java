@@ -34,4 +34,8 @@ public class Robot extends TimedRobot {
     m_hid.setRumble(RumbleType.kLeftRumble, 0.0);
     m_hid.setRumble(RumbleType.kRightRumble, 0.0);
   }
+
+  /**
+   * make a different change in master
+   */
 }

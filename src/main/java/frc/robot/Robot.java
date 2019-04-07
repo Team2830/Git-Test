@@ -23,7 +23,11 @@ public class Robot extends TimedRobot {
     m_hid.setRumble(RumbleType.kLeftRumble, 1.0);
     m_hid.setRumble(RumbleType.kRightRumble, 1.0);
   }
-
+/**
+ * 
+ * Some change in master
+ * 
+ */
   @Override
   public void disabledInit() {
     // Stop the rumble when entering disabled
